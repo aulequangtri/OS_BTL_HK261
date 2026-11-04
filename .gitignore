@@ -1,0 +1,23 @@
+# Build binaries
+os
+dma_testbench
+mem
+sched
+pdg
+
+# Object files & build outputs
+obj/
+*.o
+
+# Simulation trace dumps
+*.vcd
+rtl_trace.vcd
+
+# Generated files
+src/*.lst
+*.lst
+
+# IDE & OS metadata
+.vscode/
+.DS_Store
+Thumbs.db
