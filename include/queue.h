@@ -19,5 +19,8 @@ struct pcb_t *purgequeue(struct queue_t *q, struct pcb_t *proc);
 
 int empty(struct queue_t * q);
 
+// Student's functions
+struct pcb_t * removeFromQueue(struct queue_t * q, int index);
+
 #endif
 
